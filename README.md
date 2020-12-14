@@ -11,5 +11,5 @@ As in a normal battleship game, the user and opponent (AI) will take turns guess
 
 ### `Hard mode`
 The AI is vastly upgraded and utilizes some key features/strategies
-- It will guess according to the checkerboard strategy. This essentially means it will guess only every other location on the grid in order to cut the amount of guesses in half.
+- It will guess according to the checkerboard strategy. The smallest ship in the game is a destroyer, which has a length of two. This essentially means it can guess only every other location on the grid in order to cut the amount of guesses in half.
 - Once the AI finds a ship, it will destroy the remainder of the ship before continuing on.
